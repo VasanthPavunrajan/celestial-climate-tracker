@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="../assets/fontawesome-free-6.7.1-web/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h3>CELESTIAL CLIMATE TRACKER</h3>
+    </header>
+
+    <!-- navigation starts -->
+    <nav>
+      <a href="#show" id="a1">home</a>
+      <a href="#contact" id="a2">contact</a>
+      <a href="###" id="a3">Register</a>
+      <a href="#about" id="a4">About</a>
+      <a href="##" id="a5">options</a>
+    </nav>
+
+    <div id="popup">
+      <section id="popups1">language</section>
+      <section id="popups2">background</section>
+    </div>
+
+    <!-- show date and time of live -->
+    <article id="article">
+      <!-- live date -->
+      <div id="adiv1">
+        <h3>Today</h3>
+        <span id="day"></span>
+        <span id="date"></span>
+      </div>
+      <!-- live time -->
+      <div id="adiv2">
+        <h3>Time</h3>
+        <span id="hours"></span>
+        <span id="minutes"></span>
+        <span id="seconds"></span>
+      </div>
+    </article>
+    <br />
+
+    <!-- searchbar starts -->
+    <div id="searchbar-div">
+      <span id="raw1"></span>
+      <i class="fas fa-cloud-sun" id="i1"></i>
+      <input
+        type="text"
+        id="searchbar"
+        placeholder="enter a city to know weather"
+      />
+      <i class="fas fa-times-circle" id="i2"></i>
+      <span id="raw2"></span>
+    </div>
+
+    <main id="show">
+      <section class="sections" id="coordinates">
+        <span id="latitude"></span>
+        <spam id="longitude"></spam>
+      </section>
+
+      <section class="sections" id="maindata">
+        <span id="feel_like"></span>
+        <span id="ground_level"></span>
+        <span id="sea_level"></span>
+        <span id="temperature"></span>
+        <span id="temp_max"></span>
+        <span id="temp_min"></span>
+        <span id="humidity"></span>
+        <span id="pressure"></span>
+      </section>
+
+      <section id="raindata" class="sections">
+        <span id="rain"></span>
+      </section>
+
+      <sections id="system" class="sections">
+        <span id="country"></span>
+        <span id="id"> </span>
+        <span id="sunrise"></span>
+        <span id="sunset"></span>
+        <span id="timezone"></span>
+        <span id="visibility"></span>
+      </sections>
+
+      <section id="weather">
+        <span id="description"></span>
+      </section>
+      <section id="wind" class="sections">
+        <span id="deg"></span>
+        <span id="speed"></span>
+      </section>
+    </main>
+
+    <div id="about">
+      Celestial Climate Tracker is a cutting-edge weather application providing
+      real-time, accurate forecasts with a visually stunning interface. Designed
+      for seamless use on the internet, it offers insights into temperature,
+      precipitation. Stay informed and plan your day
+      with ease, powered by reliable weather updates.
+    </div>
+
+    <div id="contact">
+      <ul>
+        <li>
+          <i class="fas fa-user"></i> <a href="###">vasanth pavunrajan</a>
+        </li>
+        <li>
+          <i class="fas fa-envelope"></i>
+          <a href="###">vasanthpavunrajan@gmail.com</a>
+        </li>
+        <li>
+          <i class="fab fa-linkedin"></i>
+          <a href="###"> vasanthpavunrajan</a>
+        </li>
+      </ul>
+    </div>
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>
